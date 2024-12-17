@@ -1,0 +1,103 @@
+.form-check {
+        text-align: center;
+        position: relative;
+    }
+
+    .form-check input[type="radio"] {
+        display: none;
+    }
+
+    .form-check label {
+        display: block;
+        cursor: pointer;
+        transition: 0.3s ease;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .form-check img {
+        width: 100%;
+        /* Make image responsive to container size */
+        max-width: 120px;
+        /* Max width for larger screens */
+        height: auto;
+        /* Maintain aspect ratio */
+        object-fit: cover;
+        border-radius: 10px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .form-check input[type="radio"]:checked+label img {
+        transform: scale(1.2);
+        /* Make the image 1.2x bigger */
+
+    }
+
+    .form-check input[type="radio"]:checked+label {
+        font-size: x-large;
+        color: #ff6347;
+        /* Change text color when selected */
+    }
+
+    .form-check input[type="radio"]:checked + label span {
+    color: green; /* Text color */
+    font-weight: bold;
+    text-shadow: 
+        1px 1px 0 #fff, 
+        -1px -1px 0 #fff, 
+        1px -1px 0 #fff, 
+        -1px 1px 0 #fff; /* Creates a border effect around the text */
+}
+
+
+
+    .form-check span {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    /* Make the images more responsive in smaller screens */
+    @media (max-width: 768px) {
+        .form-check img {
+            max-width: 80px;
+            /* Smaller image size for smaller screens */
+        }
+    }
+
+    @media (max-width: 576px) {
+        .form-check img {
+            max-width: 70px;
+            /* Even smaller image size for very small screens */
+        }
+    }
+
+    main.flex-fill.mt-5 {
+        background-image: url('img/image.png');
+        background-size: cover;
+        /* Ensures the image covers the entire area */
+        background-position: center center;
+        /* Centers the image */
+        background-repeat: no-repeat;
+        /* Ensures the image doesn't repeat */
+        padding: 20px;
+        /* Optional: Adds padding to the content */
+    }
+
+    .form-check span {
+        display: block;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #fff;
+        /* White text color */
+    }
+
+    h1,
+    h3 {
+        color: #fff;
+        /* White text color for headings */
+    }

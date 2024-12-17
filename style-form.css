@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700;900&family=Old+English+Text+MT:wght@700&family=Times+New+Roman:wght@700&display=swap');
+
+
+.print-mt {
+    margin-top: 50px;
+}
+
+.logo {
+    width: 110px;
+}
+
+.line {
+    border-bottom: 2px solid black; 
+}
+
+.table-form {
+    width: 100%;
+    margin-bottom: 3px;
+    vertical-align: top;
+    border-collapse: collapse;
+}
+
+.blackletter {
+    font-family: 'Old English Text MT', cursive;
+    font-weight: 700; 
+    color: black; 
+}
+
+.serif {
+    font-family: 'Times New Roman', serif;
+    font-weight: 700; 
+    color: black; 
+}
+
+.text-left-custom {
+    text-align: left;
+    padding-top: 16px;
+    color: black; 
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+}
+
+.certify-text {
+    font-size: 20px;
+    text-indent: 70px;
+    padding: 10px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700; 
+    color: black; 
+}
